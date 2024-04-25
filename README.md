@@ -21,7 +21,8 @@
 - タイトル  
 - 記事内容  
 
-#### [問] 「oop_exercise3」プロジェクトを作成してください。  
+#### [問] 「oop_internal_sns」プロジェクトを作成してください。  
+
 #### [問] 画面に以下のように出力するshowメソッドを定義してください。  
 
 ```  
@@ -65,7 +66,12 @@ public class Main {
   }  
 }  
 ```  
-[解答](https://github.com/sanotyan1202/oop_exercise/blob/master/answers/ex1.md)
+
+<br>
+
+[解答](./answers/ex1.md)
+
+<br>
 
 ## 課題2 - メソッド定義  
 
@@ -114,7 +120,9 @@ public class Main {
   }  
 }  
  ```  
-[解答](https://github.com/sanotyan1202/oop_exercise/blob/master/answers/ex2.md)
+[解答](./answers/ex2.md)
+
+<br>
 
 ## 課題3 クラス定義  
 ところで、showメソッドの引数が多すぎて読みづらいと感じなかったでしょうか？  
@@ -139,7 +147,12 @@ public class Article {
   ???  
 }  
 ```  
-[解答](https://github.com/sanotyan1202/oop_exercise/blob/master/answers/ex3.md)
+
+<br>
+
+[解答](./answers/ex3.md)
+
+<br>
 
 ## 課題4 インスタンス生成  
 Userクラスを定義したので、ユーザー情報をまとめて扱えるようになりました。  
@@ -190,8 +203,13 @@ public class Main {
     return lastName + " " + firstName;  
   }  
 }  
-```  
-[解答](https://github.com/sanotyan1202/oop_exercise/blob/master/answers/ex4.md)
+```
+
+<br>
+
+[解答](./answers/ex4.md)
+
+<br>
 
 ## 課題5 メソッド定義  
 クラスは変数だけでなく、メソッドもまとめて扱うことができます。
@@ -249,7 +267,12 @@ public class Main {
   }  
 }  
 ```  
-[解答](https://github.com/sanotyan1202/oop_exercise/blob/master/answers/ex5.md)
+
+<br>
+
+[解答](./answers/ex5.md)
+
+<br>
 
 ## 課題6 コンストラクタ定義  
 Javaの配列の初期化を思い出してください。  
@@ -302,8 +325,13 @@ public class Article {
 
 ```  
 ノーヒント  
-```  
-[解答](https://github.com/sanotyan1202/oop_exercise/blob/master/answers/ex6.md)
+```
+
+<br>
+
+[解答](./answers/ex6.md)
+
+<br>
 
 ## 課題7 継承  
 ユーザー情報を正社員と契約社員に分けることになりました。  
@@ -366,7 +394,11 @@ public class Main {
 クラスを継承することで、親クラスのメソッドやフィールドを子クラスに引き継ぐことができます。  
 また、親クラス型の変数には、子クラスのインスタンスを代入することができます。  
 
-[解答](https://github.com/sanotyan1202/oop_exercise/blob/master/answers/ex7.md)
+<br>
+
+[解答](./answers/ex7.md)
+
+<br>
 
 ## 課題8 オーバーライド  
 フルネームを画面に表示する時、契約社員の時は「(Contract)」と後ろに表示することになりました。  
@@ -386,7 +418,12 @@ Your colleague is Fuga Jiro(Contract) Age:22
 Title: Hello  
 Body: World  
 ```  
-[解答](https://github.com/sanotyan1202/oop_exercise/blob/master/answers/ex8.md)
+
+<br>
+
+[解答](./answers/ex8.md)
+
+<br>
 
 ## 課題9 ポリモフィズム  
 同じ型の変数の同じメソッドを呼んでいるのに、代入されているインスタンスの型によって実際の処理が異なることをポリモフィズムと言います。    
@@ -408,7 +445,11 @@ Title: Hello
 Body: World  
 ```  
 
-[解答](https://github.com/sanotyan1202/oop_exercise/blob/master/answers/ex9.md)
+<br>
+
+[解答](./answers/ex9.md)
+
+<br>
 
 ## 課題10 抽象クラス  
 これで、このシステムを扱えるユーザーは正社員、契約社員、パートタイマーとなりました。  
@@ -421,8 +462,12 @@ Body: World
 ```  
 ノーヒント  
 ```  
-[解答](https://github.com/sanotyan1202/oop_exercise/blob/master/answers/ex10.md)
 
+<br>
+
+[解答](./answers/ex10.md)
+
+<br>
 
 ## 課題11 クラス定義
 ところで、showメソッドがMainクラスに定義されているのもの違和感を覚えないでしょうか？  
@@ -478,7 +523,11 @@ public class Main {
 }
 ```
 
-[解答](https://github.com/sanotyan1202/oop_exercise/blob/master/answers/ex11.md)
+<br>
+
+[解答](./answers/ex11.md)
+
+<br>
 
 ## 課題12 インターフェース
 ログインユーザーがnullだった場合、ホーム画面は表示せずにログイン画面を表示したいとしましょう。  
@@ -548,7 +597,11 @@ public class Main {
 ```
 > user変数にnullを代入した場合、ログイン画面が表示されることを確認してください
 
-[解答](https://github.com/sanotyan1202/oop_exercise/blob/master/answers/ex12.md)
+<br>
+
+[解答](./answers/ex12.md)
+
+<br>
 
 ## 課題13 static
 getViewerメソッドはViewerに関する処理なので、Viewerインターフェースに定義しましょう。  
@@ -593,4 +646,6 @@ public class Main {
 }
 ```
 
-[解答](https://github.com/sanotyan1202/oop_exercise/blob/master/answers/ex13.md)
+<br>
+
+[解答](./answers/ex13.md)
